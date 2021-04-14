@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: MyHomePage(title: 'NIS Calculator'),
     );
   }
 }
@@ -182,7 +182,7 @@ class _PageSection3State extends State<PageSection3> {
     var temp1 = a ~/ n;
     var temp2 = a - temp1 * n;
     var temp3 = a % n;
-    return "Quo = $temp1 \nRem= $temp2 \na % n = $temp3";
+    return "Quo = $temp1 \nRem= $temp2 \n$a % $n = $temp3";
   }
 
   @override
